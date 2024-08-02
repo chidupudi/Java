@@ -94,7 +94,7 @@ class LinkedList {
     }
 
     public static void main(String[] args) {
-        LinkedList llist = new LinkedList();
+        LinkedList llist = new LinkedList(); 
         
         llist.insertAtEnd(1);
         llist.insertAtEnd(2);
