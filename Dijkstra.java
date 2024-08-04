@@ -69,7 +69,7 @@ public class Dijkstra {
     static void printSolution(int[] dist) {
         System.out.println("Vertex \t Distance from Source ");
         for (int i = 0; i < dist.length; i++) {
-            System.out.println(i + " \t\t " + dist[i]);
+            System.out.println(i + "  \t\t " + dist[i]);
         }
     }
 
