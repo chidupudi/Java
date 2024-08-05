@@ -16,7 +16,7 @@ class LinearSearch {
         int ar[] = {43, 33, 865, 4356, 2363, 346};
         int index = Linear(ar, 346);
         if (index != -1) {
-            System.out.println("Element found at index: " + index);
+            System.out.println("Element found at index:" + index);
         } else {
             System.out.println("Element not found");
         }

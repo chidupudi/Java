@@ -24,7 +24,7 @@ class num {
             }
         }
         if (found == false)
-            System.out.println(" not exist ");
+            System.out.println(" not exist  ");
     }
 
     public static void main(String[] args)

@@ -9,7 +9,7 @@ public class MinMaxArray {
         // Iterate through the array to find min and max
         for (int i = 1; i < array.length; i++) {
             if (array[i] < min) {
-                min = array[i];
+                min = array [i];
             }
             if (array[i] > max) {
                 max = array[i];

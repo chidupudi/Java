@@ -6,7 +6,7 @@ public class LinearSearchForLetter {
         int result = linearSearchForLetter(mainString, searchLetter);
 
         if (result == -1) {
-            System.out.println("Letter not found.");
+            System.out.println(" Letter not found.");
         } else {
             System.out.println("Letter found at index: " + result);
         }
