@@ -35,7 +35,7 @@ public class BalancedParentheses {
     }
 
     public static void main(String[] args) {
-        List<String> testCases = Arrays.asList("{()}", "({})", "({}){}", "({[})", "(()", "({}[])", "{}()");
+        List<String> testCases = Arrays.asList("{()}", "({})",  "({}){}", "({[})", "(()", "({}[])", "{}()");
         
         // Loop through each test case and check if it is balanced
         for (String testCase : testCases) {
