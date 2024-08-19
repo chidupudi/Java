@@ -5,7 +5,7 @@ class Solution {
         for (int i = 0; i < a.length; i++) {
             int k = a[i];
             if (k == find) {
-                return i;
+                return  i;
             }
         }
         return -1; 
