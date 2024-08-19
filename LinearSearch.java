@@ -5,7 +5,7 @@ class LinearSearch {
     public static int Linear(int[] a, int find) {
         for (int i = 0; i < a.length; i++) {
             int k = a[i];
-            if (k == find) {
+            if (k == find)  {
                 return i;
             }
         }
