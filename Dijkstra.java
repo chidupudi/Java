@@ -67,7 +67,7 @@ public class Dijkstra {
      * @param dist The array holding the shortest distance from the source to each vertex
      */
     static void printSolution(int[] dist) {
-        System.out.println("Vertex \t Distance from Source ");
+        System.out.println("Vertex \t Distance from Source  ");
         for (int i = 0; i < dist.length; i++) {
             System.out.println(i + "  \t\t " + dist[i]);
         }
