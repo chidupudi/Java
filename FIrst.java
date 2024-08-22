@@ -6,7 +6,7 @@ public class First {
         System.out.println("hello");
         System.out.print("Enter a number ");
          int a =sc.nextInt();
-        System.out.print("Enter a number ");
+        System.out.print("Enter a number");
         int b= sc.nextInt();
         System.out.println(a+b);
         
