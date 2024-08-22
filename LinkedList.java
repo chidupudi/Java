@@ -73,13 +73,13 @@ class LinkedList {
             return;
         }
 
-        for (int i = 0; temp != null &&i < position - 1; i++) {
+        for (int i = 0; temp != null && i < position - 1; i++) {
             temp = temp.next;
         }
 
         if (temp == null || temp.next == null) return;
 
-        Node next = temp.next.next;
+        Node next = temp.next.next ;
         temp.next = next;
     }
 
