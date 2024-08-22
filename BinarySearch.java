@@ -32,7 +32,7 @@ public class BinarySearch {
         int result = binarySearch(sortedArray, target);
         
         if (result == -1) {
-            System.out.println("Element not present in the array");
+            System.out.println("Element not present in the array ");
         } else {
             System.out.println("Element found at index: " + result);
         }
