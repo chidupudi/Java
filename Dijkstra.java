@@ -83,7 +83,6 @@ public class Dijkstra {
             {0, 10 , 33, 20, 0, 8},
             {0, 0, 0, 2, 1, 0}
         };
-        
 
         // Run Dijkstra's algorithm from source vertex 0
         dijkstra(graph, 0);
