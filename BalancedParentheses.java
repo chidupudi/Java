@@ -33,6 +33,7 @@ public class BalancedParentheses {
         // If the stack is empty, all parentheses were matched and balanced
         return stack.isEmpty();
     }
+    
 
     public static void main(String[] args) {
         List<String> testCases = Arrays.asList("{()}", "({})",  "({}){}", "({[})", "(()", "({}[])", "{}()");
