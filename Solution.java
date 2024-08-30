@@ -10,7 +10,6 @@ class Solution {
         }
         return -1; 
     }
-
     public static void main(String[] args) {
         int ar[] = {43, 33, 865, 4356, 2363, 346};
         int index = Linear(ar, 346);
