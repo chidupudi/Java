@@ -65,17 +65,12 @@ class LinkedList {
     // Delete at position
     public void deleteNodeAtPosition(int position) {
         if (head == null) return;
-
         Node temp = head;
-
         if (position == 0) {
             head = temp.next;
             return;
         }
 
-
-        
-        
         for (int i = 0; temp != null && i  < position - 1; i++) {
             temp = temp.next;
         }
