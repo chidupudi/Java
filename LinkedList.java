@@ -70,7 +70,6 @@ class LinkedList {
             head = temp.next;
             return;
         }
-
         for (int i = 0; temp != null && i  < position - 1; i++) {
             temp = temp.next;
         }
@@ -80,7 +79,6 @@ class LinkedList {
         Node next = temp.next.next ;
         temp.next = next;
     }
-
     // Print the list
     public void printList() {
         Node currNode = head;
