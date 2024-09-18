@@ -11,6 +11,7 @@ public class LinearSearchInString {
             System.out.println("Substring found at index: " + result);
         }
     }
+    
     public static int linearSearch(String mainString, String searchString) {
         int mainLength = mainString.length();
         int searchLength = searchString.length();
