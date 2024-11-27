@@ -8,6 +8,9 @@
  * Assume the environment does not allow you to store 64-bit integers (signed 
  * or unsigned).
  * 
+ * 
+ * 
+ * 
  * Example 1:
  * 
  * Input: x = 123
@@ -41,3 +44,15 @@
         return reversed;
     }
 }
+
+
+/* 
+* Example 3:
+* 
+* Input: x = 120
+* Output: 21
+* 
+* Constraints:
+* - -2^31 <= x <= 2^31 - 1
+*/
+
