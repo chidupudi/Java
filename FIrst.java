@@ -9,7 +9,9 @@ public class First {
         System.out.print("Enter a number");
         int b= sc.nextInt();
         System.out.println(a+b);
-        
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
     }
     
 }
