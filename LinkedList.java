@@ -98,12 +98,12 @@ class LinkedList {
         llist.insertAtBeginning(0);
         llist.insertAfterNode(llist.head.next, 1);
         
-        llist.printList();  // Output: 0 -> 1 -> 1 -> 2 -> 3 -> null
+        llist.printList();  
 
         llist.deleteNode(1);
-        llist.printList();  // Output: 0 -> 1 -> 2 -> 3 -> null
+        llist.printList();  
 
         llist.deleteNodeAtPosition(0);
-        llist.printList();  // Output: 1 -> 2 -> 3 -> null
+        llist.printList();  
     }
 }
