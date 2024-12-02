@@ -5,7 +5,6 @@ public class MinMaxArray {
         // Initialize min and max with the first element of the array
         int min = array[0];
         int max = array[0];
-
         // Iterate through the array to find min and max
         for (int i = 1; i < array.length; i++) {
             if (array[i] < min) {
