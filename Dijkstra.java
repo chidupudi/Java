@@ -72,7 +72,6 @@ public class Dijkstra {
             System.out.println(i + "  \t\t " + dist[i]);
         }
     }
-
     public static void main(String[] args) {
         // Example graph represented as an adjacency matrix
         int[][] graph = {
