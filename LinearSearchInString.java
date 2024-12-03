@@ -24,7 +24,6 @@ public class LinearSearchInString {
                     break;
                 }
             }
-            
             if (j == searchLength) {
                 return i; // Substring found at index i
             }
