@@ -15,7 +15,6 @@ public class LinearSearchInString {
     public static int linearSearch(String mainString, String searchString) {
         int mainLength = mainString.length();
         int searchLength = searchString.length();
-
         // Iterate through the main string
         for (int i = 0; i <= mainLength - searchLength; i++) {
             // Check if the substring matches
