@@ -13,6 +13,7 @@ public class MinMaxArray {
             if (array[i] > max) {
                 max = array[i];
             }
+            
         }
         return new int[]{min, max};
     }
