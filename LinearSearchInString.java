@@ -2,9 +2,7 @@ public class LinearSearchInString {
     public static void main(String[] args) {
         String mainString = "Hello, this is a simple string search example.";
         String searchString = "simple";
-
         int result = linearSearch(mainString, searchString);
-
         if (result == -1) {
             System.out.println("Substring not found.");
         } else {
