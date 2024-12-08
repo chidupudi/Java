@@ -22,7 +22,7 @@ public class LongestValidSubstring {
                     start = currentStart;
                 }
             } else {
-                // Reset the current starting point for valid substring
+                
                 currentStart = i + 1;
             }
         }
