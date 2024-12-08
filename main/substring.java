@@ -27,7 +27,6 @@ public class LongestValidSubstring {
             }
         }
 
-        // Return the longest valid substring
         return str.substring(start, start + maxLength);
     }
 }
