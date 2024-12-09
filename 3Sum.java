@@ -5,11 +5,15 @@
 
 *Input: arr[] = {1, -2, 1, 0, 5}
 *Output: 1 -2 1
+
+
+
 *Explanation: The triplets with zero sum is 1 + -2 + 1 = 0
 */
 class num {
     static void findTriplets(int[] arr, int n)
     {
+
         boolean found = false;
         for (int i = 0; i < n - 2; i++) {
             for (int j = i + 1; j < n - 1; j++) {

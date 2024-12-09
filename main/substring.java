@@ -26,7 +26,6 @@ public class LongestValidSubstring {
                 currentStart = i + 1;
             }
         }
-
         return str.substring(start, start + maxLength);
     }
 }
