@@ -14,6 +14,8 @@ public class MinMaxArray {
                 max = array[i];
             }
             
+
+            
         }
         return new int[]{min, max};
     }
