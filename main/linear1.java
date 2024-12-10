@@ -1,5 +1,5 @@
 import java.util.*;
-class linear
+class linear1
 {
     public static void main(String [] args)
     {
@@ -19,11 +19,13 @@ class linear
         int f=sc.nextInt();
         int f1=-1;
         for (int i=0;i<n;i++)
-            if (arr[i]==f)
-                f1=i;                
-        if(f1!=-1)
+            if (arr[i]==f){
+                f1=i;  
+                if(f1!=-1)
         System.out.println("Element found at "+(f1+1)+ " index ");
-        else
+                System.exit(0);
+            }
+        
                 System.out.println("Element found at not found ");
 
     }
