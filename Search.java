@@ -58,6 +58,7 @@ class Search {
         else
             System.out.println("Element found at index " + b);
 
+            
     
     }
 }
