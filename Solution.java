@@ -6,6 +6,8 @@ class Solution {
             int k = a[i];
             if (k == find) {
                 return  i;
+
+                
             }
         }
         return -1; 
