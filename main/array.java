@@ -26,9 +26,10 @@ class array
                 i = mid; // Target found
                 break;  // Exit loop
             } else if (t < a[mid]) {
-                right = mid - 1; // Search in left half
+                left = mid + 1; // Search in left half
             } else {
-                left = mid + 1; // Search in right half
+                right = mid - 1;
+                 // Search in right half right = mid - 1;
             }
         }
         if (i==-1)
