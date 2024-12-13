@@ -23,4 +23,5 @@ public class MinMaxArray {
         System.out.println("Minimum value: " + minMax[0]);
         System.out.println("Maximum value: " + minMax[1]);
     }
+    
 }
